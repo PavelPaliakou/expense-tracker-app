@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Expense Tracker application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React, [Chakra UI](https://chakra-ui.com/).
+
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion react-icons react-apexcharts
 
 ## Available Scripts
 
