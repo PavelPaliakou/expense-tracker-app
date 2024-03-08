@@ -16,6 +16,8 @@ import {
 import { useContext } from "react";
 import { GlobalContext } from "../../context";
 
+//TODO: change style for radio buttons
+
 export default function TransactionForm({ onClose, isOpen }) {
     const { formData, setFormData, value, setValue, handleFormSubmit } =
         useContext(GlobalContext);
