@@ -60,7 +60,7 @@ export default function TransactionForm({ onClose, isOpen }) {
                                 onChange={handleFormChange}
                             />
                         </FormControl>
-                        <RadioGroup mt="5" value={value} onChange={setValue}>
+                        <RadioGroup mt="5" display={"flex"} gap={"5"} value={value} onChange={setValue}>
                             <Radio
                                 checked={formData.type === "income"}
                                 value="income"
